@@ -1,0 +1,79 @@
+{ // For an explanation of these settings please visit: https://jshint.com/docs/options/
+    "indent"        : 1,         // Has to be 1 because tab characters are used
+    "maxerr"        : 500,       // Maximum error before stopping
+
+    // Enforcing
+    "bitwise"       : true,
+    "curly"         : true,
+    "eqeqeq"        : true,
+    "forin"         : true,
+    "freeze"        : true,
+    "immed"         : true,
+    "latedef"       : true,
+    "newcap"        : true,
+    "noarg"         : true,
+    "noempty"       : true,
+    "nonbsp"        : true,
+    "nonew"         : true,
+    "plusplus"      : false,
+    "quotmark"      : false,    // We use different quotes for different purposes; see styleguide
+    "undef"         : true,
+    "unused"        : true,
+    "strict"        : false,
+    "maxparams"     : 3,        // Use destructuring for more parameters
+    "maxdepth"      : false,
+    "maxstatements" : false,
+    "maxcomplexity" : false,
+    "maxlen"        : false,
+    "varstmt"       : true,
+
+    // Relaxing
+    "asi"           : false,
+    "boss"          : false,
+    "debug"         : false,
+    "eqnull"        : false,
+    "esversion"     : 10,
+    "evil"          : false,
+    "expr"          : false,
+    "funcscope"     : false,
+    "globalstrict"  : false,
+    "iterator"      : false,
+    "lastsemic"     : false,
+    "laxbreak"      : false,
+    "laxcomma"      : false,
+    "loopfunc"      : false,
+    "multistr"      : false,
+    "noyield"       : false,
+    "notypeof"      : false,
+    "proto"         : false,
+    "scripturl"     : false,
+    "shadow"        : false,
+    "sub"           : false,
+    "supernew"      : false,
+    "validthis"     : false,
+
+    // Environments, set appropriate envs to true per project. If project contains multiple envs, leave all at false and the specify env per file at the top
+    "browser"       : false,
+    "browserify"    : false,
+    "couch"         : false,
+    "devel"         : true,     // Leave true
+    "dojo"          : false,
+    "jasmine"       : false,
+    "jquery"        : false,
+    "mocha"         : false,
+    "mootools"      : false,
+    "node"          : false,
+    "nonstandard"   : false,
+    "phantom"       : false,
+    "prototypejs"   : false,
+    "qunit"         : false,
+    "rhino"         : false,
+    "shelljs"       : false,
+    "typed"         : false,
+    "worker"        : false,
+    "wsh"           : false,
+    "yui"           : false,
+
+    // Custom Globals, set appropriate per project. If project contains multiple seperate globals, specify per file at the top
+    "globals": {}
+}
