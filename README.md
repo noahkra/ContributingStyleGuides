@@ -79,9 +79,13 @@ Before you begin though please read the following styleguides to make sure we ke
 	```
 - Always use braces around blocks of code, even single statements.
 	```node
+	// Bad
+	if (condition) return;
+	// Good
 	if (condition) { 
 		return; 
 	}
+	if (condition) { return; }
 	```
 - Put spaces before opening braces/brackets/parentheses.
 	```node
